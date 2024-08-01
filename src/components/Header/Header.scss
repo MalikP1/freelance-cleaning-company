@@ -1,0 +1,11 @@
+@use "../../styles/partials/colours" as *;
+
+.header {
+  &__link {
+  }
+  &__logo {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+}
