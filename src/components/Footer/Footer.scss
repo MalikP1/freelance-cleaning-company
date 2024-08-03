@@ -1,0 +1,66 @@
+@use "../../styles/partials/colours" as *;
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/mixins" as *;
+
+.footer {
+  background-color: $Primary;
+  color: $Secondary;
+  @include container-padding;
+  @include desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.email {
+  padding-bottom: 0.5rem;
+  @include desktop {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  &__text {
+    @include footer-font-size;
+  }
+  &__link {
+    color: $Secondary;
+    font-weight: 600;
+  }
+}
+
+.socials {
+  @include desktop {
+    width: 20%;
+  }
+  &__text {
+    padding-bottom: 0.5rem;
+    @include footer-font-size;
+    @include desktop {
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  }
+  &__article {
+    @include desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  &__link {
+    @include desktop {
+      width: 20%;
+    }
+  }
+  &__image {
+    width: 15%;
+    margin-right: 0.5rem;
+    @include tablet {
+      margin-right: 1rem;
+    }
+    @include desktop {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

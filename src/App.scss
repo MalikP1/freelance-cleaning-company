@@ -5,11 +5,14 @@
 
 .home {
   background-color: $Secondary;
-  height: 70vh;
-  padding: 1rem;
-  @include desktop {
-    padding: 1rem 2.5rem;
+  height: 52vh;
+  @include tablet {
+    height: 40vh;
   }
+  @include desktop {
+    height: 50vh;
+  }
+  @include container-padding;
   &__text {
     @include font-size;
     &--bold {
