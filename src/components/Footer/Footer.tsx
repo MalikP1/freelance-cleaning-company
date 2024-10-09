@@ -11,8 +11,8 @@ function Footer() {
             <section className="socials">
                 <p className="socials__text">Check out our socials!</p>
                 <article className="socials__article">
-                    <a className="socials__link" href="https://www.instagram.com/edandrcleaningcompany/"><img className="socials__image" src={instagram} alt="instagram logo"/></a>
-                    <a className="socials__link" href="https://www.facebook.com/edandrcleaningcompany/"><img className="socials__image" src={facebook} alt="facebook logo"/></a>
+                    <a className="socials__link" href="https://www.instagram.com/edandrcleaningcompany/" target="_blank"><img className="socials__image" src={instagram} alt="instagram logo"/></a>
+                    <a className="socials__link" href="https://www.facebook.com/edandrcleaningcompany/" target="_blank"><img className="socials__image" src={facebook} alt="facebook logo"/></a>
                 </article>
             </section>
         </footer>
