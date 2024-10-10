@@ -9,12 +9,12 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home /> } />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home /> } />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
   )
 }
 

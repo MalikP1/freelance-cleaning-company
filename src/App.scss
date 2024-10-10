@@ -3,9 +3,18 @@
 @use "./styles/partials/breakpoints" as *;
 @use "./styles/partials/mixins" as *;
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: $Primary;
+}
+
 .home {
   background-color: $Secondary;
-  height: 52vh;
+  height: 60vh;
   @include tablet {
     height: 40vh;
   }
