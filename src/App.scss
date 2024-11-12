@@ -14,12 +14,12 @@ body {
 
 .home {
   background-color: $Secondary;
-  height: 60vh;
+  height: 55vh;
   @include tablet {
     height: 40vh;
   }
   @include desktop {
-    height: 50vh;
+    height: 45vh;
   }
   @include container-padding;
   &__text {
